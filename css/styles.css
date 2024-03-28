@@ -1,0 +1,52 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-image: url("/imgs/gym.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#title-el {
+    margin: 20px;
+    /* text-shadow: 0 0 30px white; */
+    color: white;
+}
+
+#numbers-el {
+    font-size: 8vh;
+    text-shadow: 0 0 30px white;
+    margin: 8px;
+}
+
+
+button {
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#increment-el {
+    margin-bottom: 25px;
+    padding: 10px 45px;
+    border-radius: 8px;
+}
+
+#save-el {
+    margin-top: 25px;
+    padding: 10px 60px;
+    border-radius: 8px;
+}
+
+#previous-el {
+    margin-top: 60px;
+    color: white;
+    text-shadow: 0 0 50px white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+}
